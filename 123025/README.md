@@ -8,6 +8,17 @@ Notes covering variables and associated concepts of parameterization; locals and
 - [Refactored Code](./simple/): This code is my personal refactored code and one of the goals for class. Please note this code may not follow some best practices for variables (such as overuse), as utilization was prioritized.
 - [For Later](./advanced/): This is the [refactored code](./simple/) with additional Terraform features added that will not be covered tonight and is for my notes. No guarantees it works properly.
 
+Grab these folders:
+```bash
+git clone --no-checkout https://github.com/aaron-dm-mcdonald/Class7-notes.git
+cd Class7-notes
+
+git sparse-checkout init --cone
+git sparse-checkout set 123025/syntax-demo 123025/simple-code-no-refactor
+
+git checkout
+```
+
 ---
 
 ## Table of Contents
